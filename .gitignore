@@ -1,8 +1,8 @@
 node_modules
 .tmp
-dist
 demo-dist
 .ghpages-tmp/
+.idea
 
 stats.json
 npm-debug.log

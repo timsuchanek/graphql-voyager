@@ -141,7 +141,7 @@ module.exports = function() {
       new webpack.DefinePlugin({
         'VERSION': VERSION,
         'DEBUG': !IS_PRODUCTION,
-        'DEBUG_INITIAL_PRESET': IS_PRODUCTION ? 'false': '"Star Wars"'
+        'DEBUG_INITIAL_PRESET': IS_PRODUCTION ? 'false': '"Instagram"'
       }),
 
       new HtmlWebpackPlugin({

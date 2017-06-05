@@ -27,7 +27,6 @@
   & > .viewport {
     height: 100%;
     width: 100%;
-    max-width: calc(100vw - var(--doc-panel-width));
     max-height: 100vh;
 
     & > svg {

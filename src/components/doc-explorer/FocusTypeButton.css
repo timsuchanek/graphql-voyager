@@ -13,7 +13,7 @@
     height: var(--icons-size);
 
     & path:not([fill]) {
-      fill: var(--primary-color);
+      fill: var(--link-color);
     }
   }
 }

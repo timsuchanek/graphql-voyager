@@ -2,7 +2,11 @@
 
 /* common type doc styling */
 .field-name {
-  color: var(--field-name-color)
+  color: var(--field-name-color);
+  fill: var(--node-field-name-color) !important;
+}
+.field-type {
+  fill: var(--node-field-type-color) !important;
 }
 
 .doc-alert-text {

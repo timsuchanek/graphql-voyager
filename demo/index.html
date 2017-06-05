@@ -106,7 +106,10 @@
     window.addEventListener("load", function(event) {
       GraphQLVoyager.init(document.getElementById('panel_root'), {
         _schemaPresets: window.VOYAGER_PRESETS,
-        introspection: false
+        introspection: false,
+        displayOptions: {
+          hideDocs: true,
+        }
       });
     })
   </script>

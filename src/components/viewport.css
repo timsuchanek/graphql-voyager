@@ -31,12 +31,23 @@ g.graph > polygon {
     }
   }
 
+  &.selected .type-title {
+    & polygon {
+        fill: var(--node-header-color);
+      }
+
+    & text {
+        fill: var(--node-header-selected-text-color);
+      }
+  }
+
   &.selected polygon {
-    stroke: var(--highlight-color);
-    stroke-width: 3;
+     stroke: var(--highlight-color);
+    stroke-width: 1;
   }
 
   &.selected .type-title polygon {
+    stroke: var(--highlight-color);
     fill: var(--highlight-color);
   }
 }
