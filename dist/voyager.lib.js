@@ -7136,7 +7136,8 @@ function isInputObjectType(type) {
 var __dirname;
 
 function loadWorker(relativeUrl) {
-    var url = __dirname + '/' + relativeUrl;
+    // const url = __dirname + '/' + relativeUrl;
+    var url = '/' + relativeUrl;
     return fetch(url)
         .then(function (response) { return response.blob(); })
         .then(function (script) {

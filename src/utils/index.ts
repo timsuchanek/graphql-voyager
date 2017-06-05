@@ -5,7 +5,8 @@ export var __dirname;
 export * from './dom-helpers';
 
 export function loadWorker(relativeUrl):Promise<Worker> {
-  const url = __dirname + '/' + relativeUrl;
+  // const url = __dirname + '/' + relativeUrl;
+  const url = '/' + relativeUrl;
   return fetch(url)
     .then(response => response.blob())
     .then(script => {
