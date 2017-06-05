@@ -14,7 +14,7 @@
     "types": [
       "webpack"
     ],
-    "lib": ["es2016", "DOM"],
+    "lib": ["es2016", "dom"],
     "jsx": "react"
   },
   "compileOnSave": false,

@@ -15,6 +15,7 @@ declare module "*.css" {
 
 declare var DEBUG_INITIAL_PRESET: string;
 declare var DEBUG: boolean;
+declare var fetch: any
 
 interface Window {
   VOYAGER_PRESETS: any;
